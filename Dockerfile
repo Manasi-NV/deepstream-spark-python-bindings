@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git wget curl && \
     rm -rf /var/lib/apt/lists/*
 
-# Upgrade TensorRT to 10.15.1 for Blackwell / compute capability 12.1 (GB10)
+# Upgrade TensorRT to 10.15.1 for Blackwell & compute capability 12.1 (GB10)
 RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
     libnvinfer-dispatch10=10.15.1.29-1+cuda13.1 \
     libnvinfer-lean10=10.15.1.29-1+cuda13.1 \
