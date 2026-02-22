@@ -29,7 +29,7 @@ docker run --gpus all -it --rm -p 8888:8888 deepstream-spark-python
 
 | Notebook | Description |
 |----------|-------------|
-| `Introduction_to_Deepstream_and_Gstreamer.ipynb` | DeepStream SDK overview and GStreamer foundations |
+| `Introduction_to_Deepstream_and_Gstreamer.ipynb` | DeepStream SDK overview and GStreamer foundation concepts |
 | `Getting_started_with_Deepstream_Pipeline.ipynb` | Plugin walkthrough and building a 4-class detection pipeline |
 | `object_detection.ipynb` | Single-stream object detection with H.264 hardware encoding |
 | `object_detection_and_tracking_classification.ipynb` | Detection + tracking + secondary classifiers (vehicle make & type) |
