@@ -4,14 +4,6 @@ Jupyter notebooks for building DeepStream 8.0 video analytics pipelines with Pyt
 
 ## Getting Started
 
-### Pre-built image
-
-```bash
-docker pull manasi1096/deepstream8-python:gb10
-docker run --gpus all -it --rm -p 8888:8888 manasi1096/deepstream8-python:gb10
-```
-
-Open http://localhost:8888 in your browser.
 
 ### Build from source
 
